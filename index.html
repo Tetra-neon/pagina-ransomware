@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección contra Ransomware by Tiff</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <h1>Protección contra Ransomware</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#tipos">Tipos</a>
+        <a href="#protocolo">Protocolo</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <section class="contenido" id="inicio">
+        <h2>¿Qué es un Ransomware?</h2>
+        <p>Un ransomware es un tipo de malware que cifra los archivos del usuario y exige un pago para desbloquearlos.</p>
+        <img src="img/ransomware.jpg" alt="Ejemplo de ataque Ransomware">
+    </section>
+
+    <section class="formulario" id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form id="contacto-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button class="glow-button" type="submit"><span>Enviar</span></button>
+        </form>
+
+        <p id="mensaje-exito" class="">✅ ¡Gracias por contactarte! Te responderemos pronto.</p>
+    </section>
+
+    <section class="protocolo" id="protocolo">
+        <h2>¿Cómo reaccionar ante un ataque?</h2>
+        <ul>
+            <li>Desconéctate de internet inmediatamente y no apagues el pc.</li>
+            <li>No pagues el rescate.</li>
+            <li>Consulta a un experto en ciberseguridad a la brevedad.</li>
+            <li>Restaura archivos desde copias de seguridad.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Seguridad Digital by Tiffany Baron. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
